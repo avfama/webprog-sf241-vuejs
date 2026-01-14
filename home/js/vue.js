@@ -1,7 +1,7 @@
 const app = Vue.createApp({
    data() {
     return {
-     message: "Hello World!"
+     message: "Rip and Tear Till its Done."
     }
    }
   })
