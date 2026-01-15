@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBPROG IT242 Introduction</title>
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- Cover Page with Vue transition -->
+        <transition name="fade">
+            <div v-if="!showMainContent" id="cover-page">
+                <h1>{{ coverTitle }}</h1>
+                <p>{{ coverMessage }}</p>
+                <button @click="revealPage">{{ buttonText }}</button>
+            </div>
+        </transition>
+
+        <!-- Main Content with Vue transition -->
+        <transition name="fade">
+            <div v-if="showMainContent" id="main-content">
+                <!-- Header section -->
+                <div class="header">
+                    <div class="profile-img" @click="cycleProfileIcon">{{ profileIcon }}</div>
+                    <h1>{{ name }}</h1>
+                    <p class="subtitle">{{ subtitle }}</p>
+                    <div class="status" @click="toggleStatus">● STATUS: {{ status }}</div>
+                </div>
+                
+                <!-- Grid layout for profile sections -->
+                <div class="content-grid">
+                    <!-- Profile Data -->
+                    <div class="card">
+                        <h2>// PROFILE_DATA</h2>
+                        <p>Sex: {{ profile.sex }}</p>
+                        <p>Date of Birth: {{ profile.dob }}</p>
+                        <p>Course: {{ profile.course }}</p>
+                        <p>Section: {{ profile.section }}</p>
+                        <h3>Education / Achievements</h3>
+                        <ul>
+                            <li v-for="(edu, index) in profile.education" :key="index">
+                                {{ edu }}
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Skills section with Vue-bound progress bars -->
+                    <div class="card">
+                        <h2>// SKILL_MATRIX</h2>
+                        
+                        <div 
+                            v-for="skill in skills" 
+                            :key="skill.name" 
+                            class="skill-bar"
+                            @click="boostSkill(skill)">
+                            <div class="skill-name">
+                                <span>{{ skill.name }}</span>
+                                <span>{{ skill.level }}%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-fill" :style="{ width: skill.level + '%' }"></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- IT Experience -->
+                    <div class="card">
+                        <h2>// IT_EXPERIENCE</h2>
+                        <transition-group name="slide" tag="ul">
+                            <li v-for="exp in experiences" :key="exp">
+                                {{ exp }}
+                            </li>
+                        </transition-group>
+                    </div>
+                    
+                    <!-- Hobbies and Interests -->
+                    <div class="card">
+                        <h2>// HOBBIES_AND_INTERESTS</h2>
+                        <transition-group name="slide" tag="ul">
+                            <li v-for="hobby in hobbies" :key="hobby">
+                                {{ hobby }}
+                            </li>
+                        </transition-group>
+                    </div>
+                </div>
+                
+                <!-- Contact section -->
+                <div class="card">
+                    <h2>// INTERLINKED_FILES</h2>
+                    <div class="contact-links">
+                        <a 
+                            v-for="link in contactLinks" 
+                            :key="link.name"
+                            :href="link.url" 
+                            class="contact-btn"
+                            :target="link.url !== '#' ? '_blank' : ''">
+                            {{ link.name }}
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Footer -->
+                <footer>
+                    {{ footerText }}
+                </footer>
+            </div>
+        </transition>
+    </div>
+
+    <script src="js/Vue.js"></script>
+</body>
+</html>

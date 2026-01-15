@@ -1,0 +1,210 @@
+<h1>Personal Profile Web page </h1>
+<p>
+ 
+About Me<br>
+<img src="IMG_4635.JPG" alt="dweeb" width="420" height="750"><br>
+Name: Fama, Alijah Miguel V.<br>
+Education / Achievements<br>
+International Philippine School in Jeddah 2012 - 2022<br>
+Mapua Institute of Technology 2022 - 2024<br>
+Asia Pacific College 2024 - Present<br>
+Course: Computer Science: Cybersecurity <br>
+IT Experience<br>
+Basic Knowledge in Python and Java<br>
+Linux Fundamentals<br>
+<br>
+Hobbies & Interests<br>
+- Reading and Writing about Sci-Fi, Cyberpunk, and Fantasy <br>
+- Studying and Practicing various Martial Weapon Arts (mainly HEMA and Kali/Escrima) <br>
+- Gaming, mostly narrative-based RPG and Soulslike <br>
+- Cooking <br>
+- Gambli- I mean partaking in chance-based games that give adrenaline and dopamine rushes :D <br>
+Goals In Life / Dream<br>
+- A personal secret. <br>
+Picture Gallery<br>
+Insert Limbus Brainrot
+</p>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<title>WEBPROG IT242 Introduction</title>
+</head>
+<body>
+ <div class="container-fluid p-5 bg-primary text-white text-center">
+  <h1>My First Bootstrap Page</h1>
+  <p>Yee!</p>
+</div>
+
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>About Me</h3>
+      <p>Name: Fama, Alijah Miguel V.</p>
+      <p>Education / Achievements</p>
+        <p>International Philippine School in Jeddah 2012 - 2022</p>
+        <p>Mapua Institute of Technology 2022 - 2024</p>
+        <p>Asia Pacific College 2024 - Present</p>
+      <p>Course: Computer Science: Cybersecurity</p>
+      <p>IT Experience</p>
+        <p>Basic Knowledge in Python and Java</p>
+        <p>Linux Fundamentals</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Hobbies & Interests</h3>
+      <p>- Reading and Writing about Sci-Fi, Cyberpunk, and Fantasy</p>
+      <p>- Studying and Practicing various Martial Weapon Arts (mainly HEMA and Kali/Escrima)</p>
+      <p>- Gaming, mostly narrative-based RPG and Soulslike</p>
+      <p>- Cooking</p>
+      <p>- Gambli- I mean partaking in chance-based games that give adrenaline and dopamine rushes :D </p>
+      <h3>Goals In Life / Dream</h3>
+      <p>A personal secret.</p>
+    </div>
+    <div class="col-sm-4">
+      <h3>Picture Gallery</h3>
+      <p>Insert Limbus Brainrot</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/cyber_theme.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WEBPROG IT242 Introduction</title>
+</head>
+<body>
+    <!-- Page to hide the content/JavaScript stuff -->
+    <div id="cover-page">
+        <h1>Welcome!</h1>
+        <p>Click the button to enter the main site.</p>
+        <button onclick="revealPage()">Enter</button>
+    </div>
+    <!-- Main container for all content -->
+    <div id="main-content" class="hidden">
+      <!-- Header section with profile info -->
+      <div class="header">
+          <!-- Profile image placeholder -->
+          <div class="profile-img">◢◤</div>
+          <!-- Main name/title -->
+          <h1>ALIJAH MIGUEL FAMA</h1>
+          <!-- Role/position subtitle -->
+          <p class="subtitle">PERSONNEL_RECORD // ID: #2024-◻️◻️◻️◻️◻️◻️</p>
+          <!-- Online status indicator -->
+          <div class="status">● STATUS: UNKNOWN</div>
+      </div>
+      
+      <!-- Grid layout for profile sections -->
+      <div class="content-grid">
+          <!-- About section -->
+          <div class="card">
+              <h2>// PROFILE_DATA</h2>
+              <p>Sex: Male</p>
+              <p>Date of Birth: ◻️◻️/◻️◻️/◻️◻️◻️◻️</p>
+              <p>Course: Computer Science: Cybersecurity</p>
+              <p>Section: SF-241</p>
+              <h3>Education / Achievements</h3>
+              <ul>
+                <li> International Philippine School in Jeddah 2012 - 2022</li>
+                <li> Mapua Institute of Technology 2022 - 2024</li>
+                <li> Asia Pacific College 2024 - Present</li>
+              </ul>
+          </div>
+          
+          <!-- Skills section with animated progress bars -->
+          <div class="card">
+              <h2>// SKILL_MATRIX</h2>
+              
+              <div class="skill-bar">
+                  <div class="skill-name">
+                      <span>Forensics, Analysis, and Reconnaissance</span>
+                      <span>84%</span>
+                  </div>
+                  <div class="progress">
+                      <div class="progress-fill" style="width: 84%;"></div>
+                  </div>
+              </div>
+              
+              <div class="skill-bar">
+                  <div class="skill-name">
+                      <span>Designing and Planning</span>
+                      <span>72%</span>
+                  </div>
+                  <div class="progress">
+                      <div class="progress-fill" style="width: 72%;"></div>
+                  </div>
+              </div>
+              
+              <div class="skill-bar">
+                  <div class="skill-name">
+                      <span>Debugging</span>
+                      <span>70%</span>
+                  </div>
+                  <div class="progress">
+                      <div class="progress-fill" style="width: 70%;"></div>
+                  </div>
+              </div>
+              
+              <div class="skill-bar">
+                  <div class="skill-name">
+                      <span>Programming</span>
+                      <span>63%</span>
+                  </div>
+                  <div class="progress">
+                      <div class="progress-fill" style="width: 63%;"></div>
+                  </div>
+              </div>
+          </div>
+          
+          <!-- Experience section -->
+          <div class="card">
+              <h2>// IT_EXPERIENCE</h2>
+              <ul>
+                <li> Basic Knowledge in Python and Java</li>
+                <li> Linux Fundamentals</li>
+                <li> Basic SQL</li>
+                <li> Google Dorking</li>
+                <li> Basic Frontend Programming</li>
+              </ul>
+          </div>
+          
+          <!-- Certifications section -->
+          <div class="card">
+              <h2>// HOBBIES_AND
+                _INTERESTS</h2>
+              <ul>
+                  <li> Weapon-based Martial Systems (German and Italian Longsword, Kali, and Polish Sabre)</li>
+                  <li> Gaming (Strategy, Story-based RPG, Hack'n'Slash, Fighting Games)</li>
+                  <li> Reading and Writing (Horror and Cyberpunk)</li>
+                  <li> Philosophy</li>
+                  <li> Penetration Testing and Bug Hunting</li>
+              </ul>
+          </div>
+      </div>
+      
+      <!-- Full-width contact card -->
+      <div class="card">
+          <h2>// INTERLINKED_FILES</h2>
+          <div class="contact-links">
+              <a href="https://www.linkedin.com/in/miguel-fama-949555323/?trk=public-profile-join-page" class="contact-btn">LinkedIn</a>
+              <a href="#" class="contact-btn">UNAVAILABLE</a>
+              <a href="https://avfama.github.io/Library-Star-and-City/introduction/resources/res.html" class="contact-btn">Resources</a>
+              <a href="#" class="contact-btn">REDACTED</a>
+          </div>
+      </div>
+      
+      <!-- Footer with copyright info -->
+      <footer>
+          © 2077 CYBERCORP INDUSTRIES // ALL RIGHTS RESERVED // UNAUTHORIZED ACCESS WILL BE PROSECUTED
+      </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
