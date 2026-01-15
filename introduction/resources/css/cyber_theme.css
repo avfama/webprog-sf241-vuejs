@@ -373,3 +373,29 @@ footer {
     font-size: 0.9em;
     letter-spacing: 1px;
 }
+
+#app > div{
+    background: var(--bg-secondary);
+    border: 1px solid rgba(255, 0, 64, 0.3);
+    padding: 30px;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+/* Card hover effect */
+#app:hover {
+    border-color: var(--neon-red);
+    box-shadow: 0 0 30px rgba(255, 0, 64, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Card header bar */
+#app::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(90deg, var(--neon-red), transparent);
+}
