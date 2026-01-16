@@ -10,7 +10,7 @@ export default {
   data() {
     return {
       name: "Can't choose.",
-      message: 'No seriously. I cannot pinpoint a favourite.'
+      message: 'But if you want the first thing that comes to mind, curry katsu.'
     }
   }
 };
