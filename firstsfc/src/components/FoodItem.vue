@@ -1,7 +1,7 @@
 <template>
   <div>
-    <h2>{{ name }}</h2>
-    <p>{{ message }}</p>
+    <h2 style="color: white">{{ name }}</h2>
+    <p style="color: white">{{ message }}</p>
   </div>
 </template>
 
@@ -16,4 +16,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
