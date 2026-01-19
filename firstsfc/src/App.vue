@@ -1,5 +1,56 @@
 <template>
-  <h1>Favourite Food</h1>
+  <h1>O sorrow, my sorrow...</h1>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
+  <food-item/>
   <food-item/>
   <food-item/>
   <food-item/>
