@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      name: "Heathcliff the Heartbroken",
-      message: 'UNDEF.–???'
+      name: "The King in Binds",
+      message: 'WAW–07'
     }
   }
 };
