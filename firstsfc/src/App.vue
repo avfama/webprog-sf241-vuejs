@@ -1,5 +1,5 @@
 <template>
-  <h1>Abnormalities in Facility</h1>
+  <h1 style="background-color: lime;">Abnormalities in Facility</h1>
   <food-item/>
   <food-item2/>
 </template>
@@ -8,10 +8,10 @@
 
 <style>
   #app > div {
-    border: dashed white 1px;
+    border: solid lime 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: black;
+    background-color: Green;
   }
 </style>
