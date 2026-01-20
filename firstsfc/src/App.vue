@@ -1,5 +1,5 @@
 <template>
-  <h1 style="background-color: lime;">Abnormalities Distortions</h1>
+  <h1 style="background-color: lime;">Abnormalities & Distortions</h1>
   <food-item/>
   <food-item2/>
 </template>
