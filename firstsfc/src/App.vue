@@ -22,6 +22,11 @@
   <food-item2/>
 </template>
 
+<template>
+  <comment-form/>
+  <comment/>
+</template>
+
 <style>
   #app > div {
     border: solid lime 1px;
