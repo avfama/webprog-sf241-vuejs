@@ -17,5 +17,11 @@ export default {
 </script>
 
 <style>
-
+  #app > div {
+    border: solid lime 1px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: Green;
+  }
 </style>

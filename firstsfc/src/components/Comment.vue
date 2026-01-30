@@ -9,11 +9,11 @@
   
 <style>
    #app > div {
-    border: solid lime 1px;
+    border: solid Red 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: Green;
+    background-color: Black;
    }
 </style>
 
@@ -37,10 +37,10 @@ onMounted(() => {
 
 <style>
   #app > div {
-    border: solid lime 1px;
+    border: solid Red 1px;
     display: inline-block;
     margin: 10px;
     padding: 10px;
-    background-color: Green;
+    background-color: Black;
   }
 </style>
