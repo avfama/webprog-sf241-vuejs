@@ -20,9 +20,7 @@
   </ul>
   <food-item/>
   <food-item2/>
-</template>
-
-<template>
+  <br>
   <comment-form/>
   <comment/>
 </template>
