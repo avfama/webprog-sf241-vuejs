@@ -8,7 +8,7 @@
   <script></script>
   
 <style>
-   #app > div {
+   #app2 > div {
     border: solid Red 1px;
     display: inline-block;
     margin: 10px;
@@ -36,7 +36,7 @@ onMounted(() => {
 
 
 <style>
-  #app > div {
+  #app2 > div {
     border: solid Red 1px;
     display: inline-block;
     margin: 10px;
